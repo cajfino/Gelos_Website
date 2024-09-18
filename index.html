@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gelos</title>
+    <link rel="stylesheet" href="Website/css/style.css" />
+    <script src="Website/js/script.js" defer></script>
+  </head>
+  <body>
+    <!-- Banner, Logo & Hamburger Menu -->
+    <header class="header">
+      <a href="index.html" class="logo">
+        <img src="Website/img/logo.png" alt="Gelos logo" />
+      </a>
+      <input type="checkbox" id="top-menu" class="top-menu" />
+      <label class="hamburger-menu" for="top-menu">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </label>
+      <!-- Nav Bar with Navigation - Uncompressed -->
+      <nav class="nav">
+        <ul class="menu">
+          <li><a href="#section1">About the company</a></li>
+          <li><a href="#section2">Offerings</a></li>
+          <li><a href="#section3">Company Values</a></li>
+          <li><a href="#section4">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Title -->
+    <div class="THETITLE">
+      <h1>Gelos Enterprises</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem omnis
+        sed, obcaecati architecto id corrupti.
+      </p>
+    </div>
+    <!-- First section - Carousel + Slides -->
+    <section class="section1">
+      <section aria-label="Rotating Slides">
+        <div class="carousel" data-carousel>
+          <button
+            class="carousel-button previous"
+            data-carousel-button="previous"
+          >
+            &#8656;
+          </button>
+          <!-- Carousel Button -->
+          <button class="carousel-button next" data-carousel-button="next">
+            &#8658;
+          </button>
+          <ul data-slides>
+            <li class="slide slide-1" data-active>
+              <div class="slide-content">
+                <h2>Improving operations through Gelos products & services</h2>
+                <a class="readmore" href="Improving_Operations.html"
+                  >Read More</a
+                >
+              </div>
+            </li>
+            <li class="slide slide-2">
+              <div class="slide-content">
+                <h2>Solving Business Problems</h2>
+                <a class="knowmore" href="Solving_Business_Problems.html"
+                  >Know More</a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </section>
+    <!-- Section 2 - Accordion -->
+    <h2>Company Offerings</h2>
+    <section class="section2">
+      <section class="accordion">
+        <div class="tab">
+          <input type="checkbox" name="accordion-1" id="cb1" checked />
+          <label for="cb1" class="tab__label">Digital Transformation</label>
+          <div class="tab__content">
+            <p>
+              To help our clients leverage the state-of-art technologies, we
+              provide a tailored approach to enable change in the digital space.
+              Our prior works include developing mobile applications, website
+              applications, and organisation software development, among other
+              digital capabilities. To know more, contact us
+            </p>
+          </div>
+        </div>
+        <div class="tab">
+          <input type="checkbox" name="accordion-1" id="cb2" />
+          <label for="cb2" class="tab__label">Cloud Services</label>
+          <div class="tab__content">
+            <p>
+              Our Cloud programs include a range of services from full
+              application development platforms to servers, storage, and virtual
+              desktops. We offer the following:
+            </p>
+            <ol>
+              <li>Software as a service (SaaS)</li>
+              <li>Platform as a service (PaaS)</li>
+              <li>Infrastructure as a service (IaaS)</li>
+            </ol>
+          </div>
+        </div>
+        <div class="tab">
+          <input type="checkbox" name="accordion-1" id="cb3" />
+          <label for="cb3" class="tab__label">Artificial Intelligence</label>
+          <div class="tab__content">
+            <p>
+              Artificial intelligence services at Gelos can help you drive smart
+              evolution of your workflows, technology and the entire
+              organisation. Our industry experts help you implement a data-first
+              strategy, augment with third-party sources, and operationalise and
+              accelerate AI integration across your enterprise to generate
+              positive business growth.
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- Third Section - Vertical Flex boxes -->
+    <section class="section3">
+      <h2>Company Values</h2>
+      <div class="container">
+        <div class="box">
+          <h2>Integrity</h2>
+          <img
+            src="https://images.unsplash.com/photo-1589994965851-a8f479c573a9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2NhbGVzfGVufDB8fDB8fHwy"
+            alt=""
+          />
+          <p>
+            We are committed to our values and protect our company at an
+            organisational level
+          </p>
+        </div>
+        <div class="box">
+          <h2>Inclusivity</h2>
+          <img
+            src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z3JvdXAlMjBvZiUyMGhhbmRzfGVufDB8fDB8fHwy"
+            alt=""
+          />
+          <p>
+            We strongly believe in diversity as the core of our growth. Our
+            policies hold zero tolerance towards discrimination.
+          </p>
+        </div>
+        <div class="box">
+          <h2>Innovation</h2>
+          <img
+            src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGVjaG5vbG9neXxlbnwwfHwwfHx8Mg%3D%3D"
+            alt=""
+          />
+          <p>
+            Innovation is one of our core values. Our culture imbibes curiosity,
+            technological ingenuity and adaptability.
+          </p>
+        </div>
+      </div>
+      <!-- Fourth Section - Form -->
+      <section class="section4">
+        <div class="contact-info">
+          <h2>Contact Us</h2>
+          <p>Improving operations through Gelos products & services</p>
+          <button onclick="window.location.href=`Improving_Operations.html`">
+            Read More
+          </button>
+        </div>
+        <div class="form-container">
+          <form action="/submit" id="advanced-form">
+            <fieldset id="step1">
+              <legend>User Details</legend>
+              <!-- Name -->
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  tabindex="1"
+                  required
+                  aria-required="true"
+                />
+                <span class="tooltip" id="tooltip-email"
+                  >Enter a valid name</span
+                >
+              </div>
+              <!-- Email -->
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  tabindex="2"
+                  required
+                  aria-required="true"
+                />
+                <span class="tooltip" id="tooltip-email"
+                  >Enter a valid email address. We will send you a
+                  confirmation</span
+                >
+              </div>
+              <div class="form-group">
+                <label for="message">Enter Message Here</label>
+                <input
+                  type="text"
+                  id="message"
+                  tabindex="3"
+                  required
+                  aria-required="true"
+                />
+                <span class="tooltip" id="tooltip-email"
+                  >Enter a valid email address. We will send you a
+                  confirmation</span
+                >
+              </div>
+              <button id="form-submit" type="submit" tabindex="4">
+                Submit
+              </button>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
